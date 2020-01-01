@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\lenovo\desktop\lidar资料\delta-3a\delta-3a_sdk_windows(c++)\sdk\sdk\include\logfile.h(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 参见“sprintf”的声明
+c:\users\lenovo\desktop\lidar资料\delta-3a\delta-3a_sdk_windows(c++)\sdk\sdk\include\logfile.h(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 参见“sprintf”的声明
+c:\users\lenovo\desktop\lidar资料\delta-3a\delta-3a_sdk_windows(c++)\sdk\sdk\include\logfile.h(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 参见“sprintf”的声明
+c:\users\lenovo\desktop\lidar资料\delta-3a\delta-3a_sdk_windows(c++)\sdk\sdk\include\logfile.h(212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\lenovo\desktop\lidar资料\delta-3a\delta-3a_sdk_windows(c++)\sdk\sdk\include\rslidar_protocol.h(75): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  c:\users\lenovo\desktop\lidar资料\delta-3a\delta-3a_sdk_windows(c++)\sdk\sdk\include\rslidar_protocol.h(75): note: 默认构造函数或 copy/move 赋值运算符将忽略此成员
+  ultra_simple.vcxproj -> C:\Users\Lenovo\Desktop\Lidar资料\Delta-3A\Delta-3A_SDK_Windows(c++)\sdk\workspaces\vc10\\..\..\output\win32\Debug\ultra_simple.exe
