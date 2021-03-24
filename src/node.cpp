@@ -96,7 +96,7 @@ int main(int argc, char * argv[])
 
     ros::NodeHandle nh;
     ros::NodeHandle nh_private("~");
-    nh_private.param<string>("serial_port", opt_com_path, "/dev/ttyUSB4");
+    nh_private.param<string>("serial_port", opt_com_path, "/dev/ttyUSB0");
     nh_private.param<string>("frame_id", frame_id, "laser");
 //    nh_private.param<string>("lidar_scan", lidar_scan, "scan");
 //    ros::Publisher scan_pub = nh.advertise<sensor_msgs::LaserScan>(lidar_scan, 1000);
@@ -152,7 +152,7 @@ int main(int argc, char * argv[])
                 }
 
             	float angle_min = DEG2RAD(0.0f);
-            	float angle_max = DEG2RAD(359.0f);
+            	float angle_max = DEG2RAD(180.0f);
 
 				end_scan_time = ros::Time::now();
 				scan_duration = (end_scan_time - start_scan_time).toSec() * 1e-3;

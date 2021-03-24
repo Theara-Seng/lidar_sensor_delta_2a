@@ -3,4 +3,5 @@
   <param name="serial_port"         type="string" value="/dev/ttyUSB0"/>
   <param name="frame_id"            type="string" value="laser"/>
   </node>
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find delta_lidar)/rviz/testing_90degree.rviz" required="true" />
 </launch>
